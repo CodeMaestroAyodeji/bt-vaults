@@ -39,8 +39,9 @@ function Header() {
                         </>
                     ) : (
                         <>
+                            <Nav.Link as={Link} to="/dashboard">Dashboard</Nav.Link>
                             <Nav.Link as={Link} to="/signup">Signup</Nav.Link>
-                            <Nav.Link as={Link} to="/login">Logout</Nav.Link>
+                            <Nav.Link as={Link} to="/">Logout</Nav.Link>
                         </>
                     )}
                 </Nav>
