@@ -1,0 +1,91 @@
+.hero-section {
+  height: 47.5vh;
+    background-color: #f4f4f4;
+    padding: 50px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .main-content h2 {
+    color: #333;
+  }
+  
+  .main-content p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Styling for Hero Section */
+.hero-section {
+  background-color: #f4f4f4;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  color: #212121;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.hero-section .btn-primary {
+  background-color: #FFC107;
+  border-color: #FFC107;
+}
+
+/* About Us Section */
+.about-section {
+  background-color: #fff;
+}
+
+.about-section h2 {
+  color: #212121;
+  font-weight: bold;
+}
+
+/* Services Section */
+.services-section {
+  background-color: #f9f9f9;
+}
+
+.services-section h2 {
+  color: #212121;
+  margin-bottom: 30px;
+}
+
+/* Payment Section */
+.payment-section {
+  background-color: #fff;
+}
+
+.payment-section h2, .payment-section h4 {
+  color: #212121;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #f9f9f9;
+}
+
+.contact-section h2, .contact-section h4 {
+  color: #212121;
+}
+
+.contact-section .btn-primary {
+  background-color: #FFC107;
+  border-color: #FFC107;
+  margin-top: 20px;
+}
