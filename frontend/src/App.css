@@ -1,0 +1,27 @@
+body {
+  background-color: #f4f4f4; /* Light background for contrast */
+}
+
+h2, h5 {
+  color: #FFC107; /* Headings with vibrant orange */
+}
+
+.header-board {
+  background-color: #D7D7D5;
+}
+
+
+
+.table th {
+  background-color: #FFC107;
+  color: #212121;
+}
+
+footer {
+  background-color: #D7D7D5;
+  color: white;
+}
+
+footer a {
+  color: #FFC107;
+}
