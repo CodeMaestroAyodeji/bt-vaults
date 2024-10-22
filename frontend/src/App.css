@@ -1,27 +1,34 @@
-body {
-  background-color: #f4f4f4; /* Light background for contrast */
+/* App.css */
+
+.page {
+    padding: 20px;
+    background-color: #f9f9f9;
 }
 
-h2, h5 {
-  color: #FFC107; /* Headings with vibrant orange */
+.formGroup {
+    margin-bottom: 15px;
 }
 
-.header-board {
-  background-color: #D7D7D5;
+.submitButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
 }
 
-
-
-.table th {
-  background-color: #FFC107;
-  color: #212121;
+.reportButton {
+    background-color: #f44336;
 }
 
-footer {
-  background-color: #D7D7D5;
-  color: white;
+.faq_item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
 }
 
-footer a {
-  color: #FFC107;
+.termsOfUse_page h2,
+.privacyPolicy_page h2,
+.about_page h2 {
+    margin-top: 15px;
 }

@@ -1,14 +1,47 @@
 import React from 'react';
-import '../App.css';
+import './Footer.css';
 
 function Footer() {
     return (
-        <footer className="text-center p-3" style={{ backgroundColor: '#D7D7D5', color: '#333' }}>
-            <p>&copy; 2024 BTVaults. All Rights Reserved.</p>
-            <p>
-                <a href="/privacy" style={{ color: '#4B4B4A' }}>Privacy Policy</a> | 
-                <a href="/terms" style={{ color: '#4B4B4A' }}> Terms of Service</a>
-            </p>
+        <footer className="footer">
+            <div className="footer-container">
+                <div className="footer-content">
+                    <div className="footer-column">
+                        <a className="footer-link" href='/bt-vaults'>
+                        <img src={process.env.PUBLIC_URL + "/logo192.png"} alt="BTVaults Logo" className="footer-logo" />
+                        <h3 className="footer-title">BTVaults</h3>
+                        </a>
+                    </div>
+                    <div className="footer-column">
+                        <h4 className="footer-heading">Short Cut</h4>
+                        <ul className="list-unstyled">
+                            <li><a className="footer-link" href="/signup">Sign up</a></li>
+                            <li><a className="footer-link" href="/login">Login</a></li>
+                            <li><a className="footer-link" href="/pricing-list">Pricing</a></li>
+                            <li><a className="footer-link" href="/admin">Admin Dashboard</a></li>
+                        </ul>
+                    </div>
+                    <div className="footer-column">
+                        <h4 className="footer-heading">Support</h4>
+                        <ul className="list-unstyled">
+                        <li><a className="footer-link" href="/about-us">About Us</a></li>
+                            <li><a className="footer-link" href="/contact-us">Contact Us</a></li>
+                            <li><a className="footer-link" href="/report-a-problem">Report a problem</a></li>
+                            <li><a className="footer-link" href="/faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div className="footer-column">
+                        <h4 className="footer-heading">Legal</h4>
+                        <ul className="list-unstyled">
+                            <li><a className="footer-link" href="/terms-of-use">Terms of Use</a></li>
+                            <li><a className="footer-link" href="/privacy-policy">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="footer-copy">
+                    <small>© 2024 BTVaults, all rights reserved</small>
+                </div>
+            </div>
         </footer>
     );
 }

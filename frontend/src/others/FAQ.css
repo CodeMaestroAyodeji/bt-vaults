@@ -1,0 +1,13 @@
+.faq_page {
+    height: 50vh;
+    padding: 20px 100px 20px 100px;
+    background-color: #f9f9f9;
+    color: #333;
+
+}
+
+.faq_item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}

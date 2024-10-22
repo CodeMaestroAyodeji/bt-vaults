@@ -1,0 +1,68 @@
+.header_board {
+    background-color: white;
+    padding: 25px 100px 25px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.main_brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand_link {
+    text-decoration: none;
+    color: #212121;
+    display: flex;
+    align-items: center;
+}
+
+.brand_logo {
+    margin-right: 0.5rem;
+    width: 60px;
+    height: 60px;
+}
+
+.brand_name {
+    color: #FFC107;
+    font-size: 25px;
+}
+
+.main_nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav_link {
+    color: #212121 !important;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav_link:hover {
+    color: #FFC107 !important;
+}
+
+.act_btn {
+    background-color: #FFC107;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.act_btn:hover {
+    background-color: #e0a800;
+}

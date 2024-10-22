@@ -1,0 +1,96 @@
+.pricing_page {
+  background-color: #f4f4f4;
+  color: #212121;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.pricing_title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* Flex container for row layout */
+.plan_container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.plan_card {
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.plan_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+.legend {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.plan_features {
+  list-style: none;
+  padding-left: 0;
+}
+
+.plan_features li {
+  margin-bottom: 10px;
+}
+
+.plan_footer {
+  text-align: center;
+}
+
+.btn_primary {
+  background-color: #212121;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn_primary:hover {
+  background-color: #FFC107;
+  color: #212121;
+}
+
+.payment_methods {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.payment_list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.payment_icon {
+  transition: transform 0.2s ease;
+}
+
+.payment_icon:hover {
+  transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .plan_card {
+    width: 100%; /* Make cards full-width on smaller screens */
+  }
+}

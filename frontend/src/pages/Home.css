@@ -1,91 +1,156 @@
-.hero-section {
-  height: 47.5vh;
-    background-color: #f4f4f4;
-    padding: 50px 0;
-  }
-  
-  .hero-section h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-  }
-  
-  .main-content {
-    padding: 20px;
-  }
-  
-  .main-content h2 {
-    color: #333;
-  }
-  
-  .main-content p {
-    font-size: 1.2rem;
-    color: #666;
-  }
-  
-  /* Styling for Hero Section */
-.hero-section {
-  background-color: #f4f4f4;
-  height: 50vh;
+.home_container {
+  background-color: #f8f9fa;
+  padding: 0 100px;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+.hero_section {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0;
 }
 
-.hero-section h1 {
-  font-size: 3rem;
-  color: #212121;
+.hero_section h1 {
+  color: #333;
+  font-size: 35px;
+  margin: 0;
 }
 
-.hero-section p {
-  font-size: 1.2rem;
-  color: #666;
-}
-
-.hero-section .btn-primary {
+.hero_act_btn {
   background-color: #FFC107;
-  border-color: #FFC107;
-}
-
-/* About Us Section */
-.about-section {
-  background-color: #fff;
-}
-
-.about-section h2 {
-  color: #212121;
-  font-weight: bold;
-}
-
-/* Services Section */
-.services-section {
-  background-color: #f9f9f9;
-}
-
-.services-section h2 {
-  color: #212121;
-  margin-bottom: 30px;
-}
-
-/* Payment Section */
-.payment-section {
-  background-color: #fff;
-}
-
-.payment-section h2, .payment-section h4 {
-  color: #212121;
-}
-
-/* Contact Section */
-.contact-section {
-  background-color: #f9f9f9;
-}
-
-.contact-section h2, .contact-section h4 {
-  color: #212121;
-}
-
-.contact-section .btn-primary {
-  background-color: #FFC107;
-  border-color: #FFC107;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
   margin-top: 20px;
+}
+
+.hero_act_btn:hover {
+  background-color: #1a8b54;
+}
+
+.clouds_wrap {
+  max-height: 200px;
+  width: auto;
+  margin-top: -50px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  color: #333;
+}
+
+.feature_item {
+  width: 45%;
+  padding: 20px;
+  text-align: center;
+}
+
+.feature_item h2 {
+  text-align: justify;
+}
+
+.wrap_icon {
+  margin-top: 20px;
+  font-size: 100px;
+  color: #20b36c;
+}
+
+.previews {
+  color: #333;
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.cloud_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cloud_card {
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.card_body {
+  padding: 20px; 
+  border: 1px #FFC107 solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card_body p {
+  margin-bottom: 20px;
+}
+
+.card_body a {
+  text-align: center;
+  background-color: #FFC107;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #20b36c;
+  padding: 40px 0;
+}
+
+.contact_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.act_btn {
+  display: inline-block;
+  background-color: #20b36c;
+  color: white;
+  padding: 10px 20px; 
+  text-decoration: none; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+}
+
+.act_btn:hover {
+  background-color: #1a8b54;
+}
+
+.form_column, .info_column {
+  flex: 1;
+  padding: 10px;
+}
+
+.info_column {
+  margin-left: 50px;
+}
+
+.form_group {
+  margin-bottom: 15px;
+}
+
+.form_control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }

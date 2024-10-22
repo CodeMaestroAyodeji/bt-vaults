@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(33, 33, 33, 0.5);
+    color: #FFF;
+}
+
+.dashboard_container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-bottom: 20px;
+}
+
+.dashboard_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(33, 33, 33, 0.2);
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dashboard_navbar {
+    display: flex;
+    margin-left: auto;
+    padding: 0 100px 0 100px;
+}
+
+.dashboard_nav-link {
+    color: #FFC107;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.dashboard_nav-link:hover {
+    text-decoration: underline;
+}
+
+.dashboard_main-content {
+    padding: 20px 100px 0 100px;
+    flex: 1;
+}
+
+.dashboard_section-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #FFC107;
+}
+
+.dashboard_stat-item {
+    margin-bottom: 20px;
+}
+
+.dashboard_progress-bar-container {
+    background-color: #333;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.dashboard_progress-bar {
+    background-color: #FFC107;
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+    color: #000;
+}
+
+.dashboard_btn-change-plan,
+.dashboard_btn-download,
+.dashboard_btn-zip,
+.dashboard_btn-delete,
+.dashboard_btn-add,
+.dashboard_btn-upload,
+.dashboard_btn-search {
+    background-color: #FFC107;
+    color: #000;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dashboard_btn-change-plan {
+    margin-left: 0px;
+}
+
+.dashboard_btn-change-plan:hover,
+.dashboard_btn-download:hover,
+.dashboard_btn-zip:hover,
+.dashboard_btn-delete:hover,
+.dashboard_btn-add:hover,
+.dashboard_btn-upload:hover,
+.dashboard_btn-search:hover {
+    background-color: #e0a800; /* Darken the button on hover */
+}
+
+.dashboard_file-list {
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard_file-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dashboard_input-field {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 500px);
+}
