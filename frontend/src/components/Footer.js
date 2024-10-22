@@ -15,26 +15,26 @@ function Footer() {
                     <div className="footer-column">
                         <h4 className="footer-heading">Short Cut</h4>
                         <ul className="list-unstyled">
-                            <li><a className="footer-link" href="/signup">Sign up</a></li>
-                            <li><a className="footer-link" href="/login">Login</a></li>
-                            <li><a className="footer-link" href="/pricing-list">Pricing</a></li>
-                            <li><a className="footer-link" href="/admin">Admin Dashboard</a></li>
+                            <li><a className="footer-link" href="/bt-vaults/signup">Sign up</a></li>
+                            <li><a className="footer-link" href="/bt-vaults/login">Login</a></li>
+                            <li><a className="footer-link" href="/bt-vaults/pricing-list">Pricing</a></li>
+                            <li><a className="footer-link" href="/bt-vaults/admin">Admin Dashboard</a></li>
                         </ul>
                     </div>
                     <div className="footer-column">
                         <h4 className="footer-heading">Support</h4>
                         <ul className="list-unstyled">
-                        <li><a className="footer-link" href="/about-us">About Us</a></li>
-                            <li><a className="footer-link" href="/contact-us">Contact Us</a></li>
-                            <li><a className="footer-link" href="/report-a-problem">Report a problem</a></li>
-                            <li><a className="footer-link" href="/faq">FAQ</a></li>
+                        <li><a className="footer-link" href="/bt-vaults/about-us">About Us</a></li>
+                            <li><a className="footer-link" href="/bt-vaults/contact-us">Contact Us</a></li>
+                            <li><a className="footer-link" href="/bt-vaults/report-a-problem">Report a problem</a></li>
+                            <li><a className="footer-link" href="/bt-vaults/faq">FAQ</a></li>
                         </ul>
                     </div>
                     <div className="footer-column">
                         <h4 className="footer-heading">Legal</h4>
                         <ul className="list-unstyled">
-                            <li><a className="footer-link" href="/terms-of-use">Terms of Use</a></li>
-                            <li><a className="footer-link" href="/privacy-policy">Privacy Policy</a></li>
+                            <li><a className="footer-link" href="/bt-vaults/terms-of-use">Terms of Use</a></li>
+                            <li><a className="footer-link" href="/bt-vaults/privacy-policy">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>

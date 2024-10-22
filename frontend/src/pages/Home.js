@@ -10,7 +10,7 @@ function Home() {
           Securely download files to the cloud.
           <br /> Private. Fast. Always online.
         </h1>
-        <Link to={"/signup"} className="hero_act_btn">
+        <Link to={"/bt-vaults/signup"} className="hero_act_btn">
           Sign Up
         </Link>
         <div className="clouds_wrap">
@@ -56,7 +56,7 @@ function Home() {
                 Effortlessly manage and view all your downloaded files in a
                 single, convenient location.
               </p>
-              <Link to={"/my-dashboard"} className="cloud_act_btn">
+              <Link to={"/bt-vaults/my-dashboard"} className="cloud_act_btn">
                 Go to My Cloud
               </Link>
             </div>

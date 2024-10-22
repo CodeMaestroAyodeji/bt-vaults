@@ -22,17 +22,17 @@ function App() {
       <Header />
       <Routes>
         <Route path='/bt-vaults' element={<Home />}></Route>
-        <Route path='/login' element={<Login />}></Route>
-        <Route path='/signup' element={<Signup />}></Route>
-        <Route path='/my-dashboard' element={<UserDashboard />}></Route>
-        <Route path='/admin' element={<AdminDashboard />}></Route>
-        <Route path='/pricing-list' element={<Pricing />}></Route>
-        <Route path='/privacy-policy' element={<PrivacyPolicy />}></Route>
-        <Route path='/contact-us' element={<ContactUs />}></Route>
-        <Route path='/terms-of-use' element={<TermsOfUse />}></Route>
-        <Route path='/faq' element={<FAQ />}></Route>
-        <Route path='/report-a-problem' element={<ReportProblem />}></Route>
-        <Route path='/about-us' element={<About />}></Route>
+        <Route path='/bt-vaults/login' element={<Login />}></Route>
+        <Route path='/bt-vaults/signup' element={<Signup />}></Route>
+        <Route path='/bt-vaults/my-dashboard' element={<UserDashboard />}></Route>
+        <Route path='/bt-vaults/admin' element={<AdminDashboard />}></Route>
+        <Route path='/bt-vaults/pricing-list' element={<Pricing />}></Route>
+        <Route path='/bt-vaults/privacy-policy' element={<PrivacyPolicy />}></Route>
+        <Route path='/bt-vaults/contact-us' element={<ContactUs />}></Route>
+        <Route path='/bt-vaults/terms-of-use' element={<TermsOfUse />}></Route>
+        <Route path='/bt-vaults/faq' element={<FAQ />}></Route>
+        <Route path='/bt-vaults/report-a-problem' element={<ReportProblem />}></Route>
+        <Route path='/bt-vaults/about-us' element={<About />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>

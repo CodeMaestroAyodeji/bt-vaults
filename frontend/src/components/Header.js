@@ -18,9 +18,9 @@ function Header() {
                     </Link>
                 </div>
                 <nav className="main_nav">
-                    <Link to="/pricing-list" className="nav_link">Pricing</Link>
-                    <Link to="/login" className="nav_link">Login</Link>
-                    <Link to="/signup" className="nav_link act_btn">Sign Up</Link>
+                    <Link to="/bt-vaults/pricing-list" className="nav_link">Pricing</Link>
+                    <Link to="/bt-vaults/login" className="nav_link">Login</Link>
+                    <Link to="/bt-vaults/signup" className="nav_link act_btn">Sign Up</Link>
                 </nav>
             </div>
         </header>
