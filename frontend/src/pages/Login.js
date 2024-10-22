@@ -13,6 +13,7 @@ function Login() {
 
     const [errors, setErrors] = useState({});
     const [captchaVerified, setCaptchaVerified] = useState(false);
+    const [loading, setLoading] = useState(false); // Loading state
     const navigate = useNavigate();
 
     const handleInput = (event) => {
@@ -32,12 +33,17 @@ function Login() {
         setErrors(validationErrors);
 
         if (Object.keys(validationErrors).length === 0 && captchaVerified) {
+            setLoading(true); // Start loading
             axios.post('http://localhost:8081/login', values)
                 .then(res => {
-                    navigate('/dashboard');
+                    navigate('/bt-vaults/my-dashboard');
                 })
                 .catch(err => {
                     console.error(err);
+                    setErrors(prev => ({ ...prev, server: "Login failed. Please check your credentials." }));
+                })
+                .finally(() => {
+                    setLoading(false);// Stop loading
                 });
         } else if (!captchaVerified) {
             setErrors(prev => ({ ...prev, captcha: "Please verify the captcha" }));
@@ -75,15 +81,16 @@ function Login() {
 
                     <div className="captcha_section">
                         <ReCAPTCHA
-                            sitekey="YOUR_RECAPTCHA_SITE_KEY"
+                            sitekey="6LdVDWkqAAAAAIJ25CNhdd0fnSy9GU8t80j-xcBs"
                             onChange={handleCaptcha}
                         />
                         {errors.captcha && <div className="error_message">{errors.captcha}</div>}
                     </div>
 
-                    <button type="submit" className="submit_btn">
-                        <strong>Log in</strong>
+                    <button type="submit" className="submit_btn" disabled={loading}>
+                        <strong>{loading ? 'Logging in...' : 'Log in'}</strong>
                     </button>
+                    {errors.server && <div className="error_message">{errors.server}</div>}
 
                     {/* Forgot Password Section */}
                     <div className="forgot_password">
